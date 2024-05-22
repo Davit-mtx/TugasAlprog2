@@ -1,0 +1,10 @@
+PENJELASAN CLASS SAHAM
+1. buat atribut simbol = String, nama = String, priorClosingPrice = double, currentPrice = double
+2. buat constructor dari atribut tersebut 
+3. buat method get dan set untuk setiap atribut agar memiliki nilai, karna kalau tidak melakukan ini atribut tidak memiliki nilai karna bersifat private
+4. buat method getChangePercent, dengan isi pengoprasian untuk mengembalikan persentase perubahan dari priorClosingPrice ke currentPrice
+5. buat method info untuk menampilkan hasil dari perhitungan pada method getChangePersen
+
+PENJELASAN MAIN CLASS TESTSAHAM
+1. buat objek baru bernama check dengan memanggil class saham lalu tambahkan objek sesuai atribut yang berada pada class saham yaitu simbol, nama, priorClosingPrice, currentPrice
+2. gunakan objek check tersebut dalam memanggil method info untuk menampilkan output hasil dari perhitungan di class saham
