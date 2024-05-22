@@ -1,0 +1,18 @@
+PENJELASAN CLASS lingkaran
+1. buat atribut warna dan r dengan menggunakan protected agar nilainya dapat di operasikan di class lainnya
+2. buat constructor pada atribut di atas.
+3. buat method get dan set untuk mengembalikan nilai pada atribut, hal ini dikarenakan protected bersifat seperti private juga namun bisa di operasikan di class lainnya
+4. buat method luasLingkaran untuk menghitung luas lingkaran
+5. buat method info yang bertujuan untuk menampilkan output atribut dalam class lingkaran
+
+PENJELASAN CLASS Silinder
+1. lakukan estends class silinder kepada class lingkaran
+2. buat atribut t:double dengan private
+3. lakukan constractor pada atribut dari class lingkaran ditambah class silinder yaitu warna, r, dan t. Lakukan pemanggilan atribut dari class lingkaran dengan metode superclass.
+4. baut method get dan set untuk mengembalikan nilai dari atribut.
+5. buat method volumeSilinder untuk mencari volume dari silinder.
+6. buat method info untuk menampilkan output dari class silinder dan lakukan pemanggilan super untuk memanggil method info di class lingkaran.
+
+PENJELASAN MAIN CLASS testhasil
+1. lakukan pembuatan objek baru untuk pemanggilan class lingkaran yaitu L, dan lakukan hal yang sama untuk pemanggilan class silinder. Namun jangan lupa menambahkan objek tersbut sesusai ouput tiap class.
+2. lakukan pemanggilan method info dengan objek baru yang telah dibikin sebelumnya untuk menampilkan hasil output kedua class
