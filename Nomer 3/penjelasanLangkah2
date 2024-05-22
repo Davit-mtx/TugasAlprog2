@@ -1,0 +1,8 @@
+PENJELASAN CLASS titik
+1. buatlah atribut x, dan y untuk melambangkan titik titik yang nantinya akan kita operasikan
+2. buat constructor pada artibut x dan y dengan x=0 dan y=0.
+3. buat method get dan set untuk mengembalikan nilai dari atribut 
+4. buat method geser dengan objek baru yang kita panggil dari titik yaitu p. Didalam method ini juga dibuat objek baru didalamnya yaitu a yang dipanggil dari class titik.
+   operasikan a.x sebagaimana untuk pergeseran titik x yang dapat dirumuskan sebagai this.getX()+p.getX(), dimana this.getX()=x0, dan p.getX()=x1.
+   berlaku sama juga kepada a.y. Lalu untuk keluarannya atau return adalah hasil dari a.
+5. 
