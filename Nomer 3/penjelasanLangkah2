@@ -5,4 +5,16 @@ PENJELASAN CLASS titik
 4. buat method geser dengan objek baru yang kita panggil dari titik yaitu p. Didalam method ini juga dibuat objek baru didalamnya yaitu a yang dipanggil dari class titik.
    operasikan a.x sebagaimana untuk pergeseran titik x yang dapat dirumuskan sebagai this.getX()+p.getX(), dimana this.getX()=x0, dan p.getX()=x1.
    berlaku sama juga kepada a.y. Lalu untuk keluarannya atau return adalah hasil dari a.
-5. 
+5. buat method "kuadran" yang dimana fungsi dari method ini adalah untuk menentukan x dan y itu berada pada kuadran berapa.
+6. buat method "jarak" dengan menggunakan objek baru didalamnya yaitu p1. P1 ini digunakan untuk membuat nilai yang berbeda/baru kepada titik x dan y.
+   lalu buat variabel bernama vx guna untuk menentukan pengurangan dari kedua variabel x, begitupan dengann variabel vy.
+   buat variabel "hasil" yang digunakan untuk menghitung hasil dari vx2 ditambah vy2 lalu return hasil pada method "jarak"
+7. buat method boolean "segaris" dengan objek baru juga yaiut p1, deklarasi variabel hasil dalam jenis boolean. Setelah itu check hasil dengan cara seperti yang ada di code. 
+   hal ini dilakukan untuk mengecheck apakah garis x0 dan x1 segaris atau y0 dan y1 segaris.
+
+PENJELASAN MAIN CLASS testtitik
+1.buat objek pada main seperti titik1, titik2 , dan hasil geser. operasikan objek hasilgeser dengan pemanggilan objek titik1, 
+   method geser yang berisi titik2. Lalu print hasilnya.
+2. gunakan objek titik1 dan pemanggilan method "kuadaran" untuk mengecek titik1 berada pada kuadaran berapa. lalu print hasil.
+3. buat if else untuk mengecek titik1 dan titik2 apakah segaris melalui method "segaris", lalu print hasilnya.
+
